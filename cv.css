@@ -55,7 +55,6 @@ body
 .sidebar-about-me
 {
     padding: 20px;
-    text-align: justify;
     line-height: 23px;
 }
 
@@ -82,6 +81,12 @@ body
     display: flex;
     flex-direction: column; 
     padding: 12px;   
+}
+
+.bottom
+{
+    display: flex;
+    justify-content: flex-end;
 }
 
 .loisirs-icones
@@ -122,21 +127,10 @@ body
     padding-bottom: 2px;
 }
 
-h2 + p
-{
-    font-size: 1.5em;
-}
-
 header h1
 {
     text-transform: uppercase;
     font-size: 40px;
-}
-
-header h2
-{
-    font-size: 22px;
-    margin-top: 10px;
 }
 
 .fullname
@@ -210,7 +204,7 @@ h3 i
 .main-section-reco
 {
     display: inline-block;
-    margin-right: 115px;
+    margin-right: 110px;
     padding-top: 50px;
 }
 
@@ -252,7 +246,8 @@ h3 i
     }
 
     .main {
-        max-width: 100%;    
+        max-width: 100%;
+        padding: 20px;    
     }
 
     .sidebar {
@@ -276,5 +271,9 @@ h3 i
 
     .main-section-title-text {
         margin-left: 15px;
+    }
+
+    h1, h2 {
+        color: black;
     }
 } 
